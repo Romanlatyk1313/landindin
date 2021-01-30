@@ -1,0 +1,301 @@
+//@media screen and (max-width: 1440px){
+//  .programme_food{
+//    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+//    grid-row-gap: 10px;
+//  grid-column-gap: 180px;
+//  }
+//}
+
+//@media screen and (max-width: 1140px) {
+//  .whyThrive_content {
+//    p {
+//      padding-left: 10px;
+//      padding-right: 10px;
+//    }
+//  }
+//}
+
+//@media screen and (max-width: 1110px) {
+//  .header {
+//    height: auto;
+//  }
+//  .header_content {
+//    margin: auto;
+//  }
+//  .header_image {
+//    margin-top: 0px;
+
+//    .img {
+//      display: flex;
+//      justify-content: center;
+//      img {
+//        width: 500px;
+//        height: 544.93px;
+//        border-radius: 100% 100%;
+//      }
+//    }
+//  }
+
+//  //---whyThrive----
+
+//  .whyThrive_content {
+//    flex-basis: auto;
+//  }
+//  .whyThrive_image {
+//    flex-basis: auto;
+//  }
+//  //---help with---
+//  .helpWith {
+//    .helpWith_bloc {
+//      grid-template-columns: repeat(auto-fit, minmax(150px, 50%));
+//    }
+//  }
+//}
+
+//@media screen and (max-width: 950px) {
+////---header---
+//.header_box{
+//  display: flex;
+//  flex-direction: column;
+//}
+
+
+//  //---whytrive--
+
+//  .whyThrive_image {
+//    flex-basis: auto;
+//    img {
+//      max-width: 100%;
+//      height: auto;
+//    }
+//  }
+
+//  //---help with---
+//  .helpWith {
+//    .helpWith_bloc {
+//      grid-template-columns: repeat(auto-fit, minmax(150px, 50%));
+//    }
+//  }
+//}
+
+//@media screen and (max-width: 840px) {
+//  .header{
+//    .header_box{
+//      .header_content{
+//        margin-top: 10px;
+//      }
+//    }
+//    .hamburger-box {
+//    display: inherit;
+//    display: flex;
+    
+//  }
+
+//  .header_top {
+//    grid-template-columns: 1fr 1fr;
+//    .header_top_menu {
+//      //display: block;
+//      display: none ;
+//    }
+//  }
+//  }
+  
+//  //---whyThrive---
+//  .whyThrive {
+//    flex-direction: column-reverse;
+//    .whyThrive_content {
+//      flex: auto;
+//      h3 {
+//        margin: 50px auto;
+//        text-align: center;
+//      }
+//      p {
+//        margin: 0 auto 0;
+//      }
+//    }
+//  }
+
+//  //--about us--
+
+//  .aboutUs {
+//    h3 {
+//      margin: 50px auto;
+//      text-align: center;
+//    }
+//    p {
+//      margin: auto;
+//      text-align: center;
+//      font-size: 18px;
+//      padding: 10px;
+//    }
+//  }
+
+//  //---programme_food---
+
+  
+//  .programme_food{
+//    grid-column-gap: 70px;
+//    margin: 22px auto;
+
+//  }
+//}
+
+//@media screen and (max-width: 650px) {
+//  .header{
+//    .header_top {
+//    display: flex;
+//    flex-direction: column;
+//    .header_top_logo {
+//      margin: 50px auto 0;
+//    }
+//    .header_top_button {
+//      margin: 27px auto;
+//    }
+//  }
+//  .header_box{
+//    .header_content {
+//    max-width: 269px;
+//    margin: 27px auto;
+
+//    h1 {
+//      font-size: 38px;
+//    }
+//    p {
+//      font-size: 18px;
+//      line-height: 42px;
+//    }
+//  }
+//  }
+//  }
+  
+  
+
+//  //---whyThrive---
+//  .whyThrive {
+//    .whyThrive_content {
+//      p {
+//        margin: 0 auto 0;
+//        font-size: 18px;
+//      }
+//    }
+//  }
+
+//  //---help with---
+
+//  .helpWith{
+//    h3 {
+//      line-height: inherit;
+//     margin: 56px auto 20px;
+//    }
+//  }
+//  .helpWith {
+//    .helpWith_bloc {
+//      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+//      h4{
+        
+//        text-align: center;
+//      }
+//      h4::before{
+//        display: none;
+//      }
+      
+//    }
+//  }
+
+//  //---next---
+
+
+//  .next{
+//    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+//  }
+//}
+
+//@media screen and (max-width: 510px) {
+//  .header_box{
+//    .header_content {
+//    max-width: 320px;
+//    margin-top: 27px;
+
+//    h1 {
+//      font-size: 28px;
+//    }
+//    p {
+//      font-size: 16px;
+//      line-height: 36px;
+//    }
+//  }
+//  .header_image {
+//    .img {
+//      img {
+//        max-width: 320px;
+//        max-height: 320px;
+//      }
+//    }
+//  }
+//  }
+  
+
+//  //---whyThrive---
+//  .whyThrive_content {
+//    align-self: flex-start;
+//    p {
+//      font-size: 18px;
+//    }
+//  }
+////---helpWith---
+//%w100H360{
+//  width: 100%;
+//  height: 190px;
+//}
+//.helpWith{
+//  .helpWith_bloc{
+//   h4{
+//     text-align: center ;
+//     margin: auto;
+//   }
+// }
+//}
+ 
+
+//}
+
+//@media screen and (max-width: 420px) {
+
+//  //---header---
+
+//  .header{
+//    .header_box{
+//      .header_content{
+//        .header_content_buttoon{
+//          width:120px ;
+//        }
+//      }
+//    }
+//  }
+
+//  //---whyThrive---
+
+//  .whyThrive_content {
+//    h3 {
+//      margin-top: 10px;
+//    }
+//  }
+//   //---helpWith---
+
+//  .helpWith {
+//    .helpWith_bloc {
+//      .running {
+//        h4 {
+          
+//          margin-left: inherit;
+//        }
+//      }
+//    }
+//  }
+//   //---next---
+
+
+//   .next{
+//    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+//  }
+//}

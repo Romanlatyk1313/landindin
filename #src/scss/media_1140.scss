@@ -1,0 +1,57 @@
+@media screen and (max-width: 1140px) {
+   .whyThrive_content {
+     p {
+       padding-left: 10px;
+       padding-right: 10px;
+     }
+   }
+ }
+ 
+ @media screen and (max-width: 1110px) {
+   .header {
+     height: auto;
+   }
+   .header_content {
+     margin: auto;
+   }
+   .header_image {
+     margin-top: 0px;
+ 
+     .img {
+       display: flex;
+       justify-content: center;
+       img {
+         width: 500px;
+         height: 544.93px;
+         border-radius: 100% 100%;
+       }
+     }
+
+   }
+ 
+   //---whyThrive----
+ 
+   .whyThrive_content {
+     flex-basis: auto;
+   }
+   .whyThrive_image {
+     flex-basis: auto;
+   }
+   //---help with---
+   .helpWith {
+     .helpWith_bloc {
+       grid-template-columns: repeat(auto-fit, minmax(150px, 50%));
+     }
+   }
+   
+     //---footer---
+
+     .footer_info{
+       .footer_info_office_hours{
+         h4{
+       line-height: 20px;
+      }
+       }
+      
+    }
+ }

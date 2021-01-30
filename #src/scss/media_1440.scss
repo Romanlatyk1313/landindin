@@ -1,0 +1,7 @@
+@media screen and (max-width: 1440px){
+   .programme_food{
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     grid-row-gap: 10px;
+   grid-column-gap: 180px;
+   }
+ }

@@ -1,0 +1,135 @@
+@media screen and (max-width: 840px) {
+  .header {
+    .header_box {
+      .header_content {
+        margin-top: 10px;
+      }
+    }
+    .hamburger-box {
+      display: inherit;
+      display: flex;
+    }
+
+    .header_top {
+      grid-template-columns: 1fr 1fr;
+      .header_top_menu {
+        //display: block;
+        display: none;
+      }
+    }
+  }
+
+  //---whyThrive---
+  .whyThrive {
+    flex-direction: column-reverse;
+    .whyThrive_content {
+      flex: auto;
+      h3 {
+        margin: 50px auto;
+        text-align: center;
+      }
+      p {
+        margin: 0 auto 0;
+      }
+    }
+  }
+
+  //--about us--
+
+  .aboutUs {
+    #about, a {
+      margin: 50px auto;
+      text-align: center;
+    }
+    p {
+      margin: auto;
+      text-align: center;
+      font-size: 18px;
+      padding: 10px;
+    }
+  }
+
+  //---heipWith---
+
+  .helpWith{
+    #services, a{
+      margin: 56px auto 25px;
+    }
+  }
+
+  //---programme_food---
+
+  .programme_food {
+    grid-column-gap: 70px;
+    margin: 22px auto;
+  }
+
+  //---know---
+
+  .know {
+    display: inherit;
+    .know_content {
+      margin: auto;
+      max-width: inherit;
+      #blog, a{
+        display: block;
+        margin: 20px auto;
+      }
+      p {
+        font-size: 18px;
+        max-width: 340px;
+        line-height: 30px;
+        display: block;
+        margin: auto;
+      }
+      a {
+        margin-top: inherit;
+      }
+    }
+    .know_img {
+      margin: auto;
+    }
+  }
+
+  //---smile---
+
+  .smile {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    margin-top: 0;
+    .smile_content {
+      max-width: 100%;
+      margin-top: -4px;
+      #contact, a {
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+      }
+      h4 {
+        margin: 10px auto;
+      }
+      p {
+        margin: 10px auto;
+        
+      }
+      a {
+        margin: 20px auto;
+      }
+    }
+  }
+
+  //---footer---
+
+  .footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .footer_info{
+      .footer_info_some_info{
+      margin-left: 10px;
+    }
+    }
+    
+  }
+} 

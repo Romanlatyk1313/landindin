@@ -1,0 +1,48 @@
+@media screen and (max-width: 510px) {
+   .header_box{
+     .header_content {
+     max-width: 320px;
+     margin-top: 27px;
+ 
+     h1 {
+       font-size: 28px;
+     }
+     p {
+       font-size: 16px;
+       line-height: 36px;
+     }
+   }
+   .header_image {
+     .img {
+       img {
+         max-width: 320px;
+         max-height: 320px;
+       }
+     }
+   }
+   }
+   
+ 
+   //---whyThrive---
+   .whyThrive_content {
+     align-self: flex-start;
+     p {
+       font-size: 18px;
+     }
+   }
+ //---helpWith---
+ %w100H360{
+   width: 100%;
+   height: 190px;
+ }
+ .helpWith{
+   .helpWith_bloc{
+    h4{
+      text-align: center ;
+      margin: auto;
+    }
+  }
+ }
+  
+ 
+ }

@@ -1,0 +1,24 @@
+@media screen and (max-width: 1240px) {
+  .know {
+    .know_content {
+      margin-left: inherit;
+    }
+  }
+  //---smile---
+
+  .smile {
+    .smile_content {
+      a {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  //---footer---
+
+  .footer {
+    grid-template-columns: 60% 40%;
+
+   
+  }
+}

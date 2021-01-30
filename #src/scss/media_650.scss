@@ -1,0 +1,80 @@
+@media screen and (max-width: 650px) {
+   .header{
+     .header_top {
+     display: flex;
+     flex-direction: column;
+     .header_top_logo {
+       margin: 50px auto 0;
+     }
+     .header_top_button {
+       margin: 27px auto;
+     }
+   }
+   .header_box{
+     .header_content {
+     max-width: 269px;
+     margin: 27px auto;
+ 
+     h1 {
+       font-size: 38px;
+     }
+     p {
+       font-size: 18px;
+       line-height: 42px;
+     }
+   }
+   }
+   }
+   
+   
+ 
+   //---whyThrive---
+   .whyThrive {
+     .whyThrive_content {
+       p {
+         margin: 0 auto 0;
+         font-size: 18px;
+       }
+     }
+   }
+ 
+   //---help with---
+ 
+   .helpWith{
+     h3 {
+       line-height: inherit;
+      margin: 56px auto 20px;
+     }
+   }
+   .helpWith {
+     .helpWith_bloc {
+       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+       h4{
+         
+         text-align: center;
+       }
+       h4::before{
+         display: none;
+       }
+       
+     }
+   }
+ 
+   //---next---
+ 
+ 
+   .next{
+     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+   }
+
+   //---smile---
+
+
+   .smale{
+     .smile_content{
+       p{
+         max-width: inherit;
+       }
+     }
+   }
+ }

@@ -1,0 +1,59 @@
+@media screen and (max-width: 950px) {
+  //---header---
+  .header_box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  //---whytrive--
+
+  .whyThrive_image {
+    flex-basis: auto;
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  //---help with---
+  .helpWith {
+    .helpWith_bloc {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 50%));
+    }
+  }
+
+  //---next---
+  .next {
+    margin-top: 20px;
+  }
+
+  //---know---
+
+  .know {
+    #blog, a {
+      margin-top: 20px;
+
+    }
+    p{
+      line-height: 38px;
+    }
+  }
+
+  //---smile---
+  .smile {
+    .smile_content {
+      h4 {
+        font-size: 26px;
+        margin-top: 50px;
+      }
+    }
+  }
+
+  //---footer---
+
+  .footer {
+    .footer_info {
+      margin-top: 20px;
+    }
+  }
+}
