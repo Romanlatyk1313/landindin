@@ -1,7 +1,6 @@
 {
   "name": "fil",
   "version": "1.0.0",
-  "description": "",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,5 +26,15 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-css": "^1.1.0",
     "gulp-webp-html": "^1.0.2"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romanlatyk1313/landindin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Romanlatyk1313/landindin/issues"
+  },
+  "homepage": "https://github.com/Romanlatyk1313/landindin#readme",
+  "description": ""
 }
